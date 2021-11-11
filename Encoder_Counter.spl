@@ -1,0 +1,13 @@
+[Inputs]
+fpga_clk
+encoder_A
+encoder_B
+reset_mod
+ena_mod
+[Outputs]
+busy_mod
+=milhar_mod[3:0]=
+=centenas_mod[3:0]=
+=dezenas_mod[3:0]=
+=unidades_mod[3:0]=
+[BiDir]

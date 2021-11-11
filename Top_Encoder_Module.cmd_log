@@ -1,0 +1,136 @@
+xst -intstyle ise -ifn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.xst" -ofn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top_Encoder_Module.ucf -p xc3s500e-fg320-5 Top_Encoder_Module.ngc Top_Encoder_Module.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Top_Encoder_Module_map.ncd Top_Encoder_Module.ngd Top_Encoder_Module.pcf 
+par -w -intstyle ise -ol high -t 1 Top_Encoder_Module_map.ncd Top_Encoder_Module.ncd Top_Encoder_Module.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Top_Encoder_Module.twx Top_Encoder_Module.ncd -o Top_Encoder_Module.twr Top_Encoder_Module.pcf -ucf Top_Encoder_Module.ucf 
+bitgen -intstyle ise -f Top_Encoder_Module.ut Top_Encoder_Module.ncd 
+xst -intstyle ise -ifn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.xst" -ofn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top_Encoder_Module.ucf -p xc3s500e-fg320-5 Top_Encoder_Module.ngc Top_Encoder_Module.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Top_Encoder_Module_map.ncd Top_Encoder_Module.ngd Top_Encoder_Module.pcf 
+par -w -intstyle ise -ol high -t 1 Top_Encoder_Module_map.ncd Top_Encoder_Module.ncd Top_Encoder_Module.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Top_Encoder_Module.twx Top_Encoder_Module.ncd -o Top_Encoder_Module.twr Top_Encoder_Module.pcf -ucf Top_Encoder_Module.ucf 
+bitgen -intstyle ise -f Top_Encoder_Module.ut Top_Encoder_Module.ncd 
+xst -intstyle ise -ifn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.xst" -ofn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top_Encoder_Module.ucf -p xc3s500e-fg320-5 Top_Encoder_Module.ngc Top_Encoder_Module.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Top_Encoder_Module_map.ncd Top_Encoder_Module.ngd Top_Encoder_Module.pcf 
+par -w -intstyle ise -ol high -t 1 Top_Encoder_Module_map.ncd Top_Encoder_Module.ncd Top_Encoder_Module.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Top_Encoder_Module.twx Top_Encoder_Module.ncd -o Top_Encoder_Module.twr Top_Encoder_Module.pcf -ucf Top_Encoder_Module.ucf 
+bitgen -intstyle ise -f Top_Encoder_Module.ut Top_Encoder_Module.ncd 
+xst -intstyle ise -ifn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.xst" -ofn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.syr" 
+xst -intstyle ise -ifn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.xst" -ofn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top_Encoder_Module.ucf -p xc3s500e-fg320-5 Top_Encoder_Module.ngc Top_Encoder_Module.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Top_Encoder_Module_map.ncd Top_Encoder_Module.ngd Top_Encoder_Module.pcf 
+par -w -intstyle ise -ol high -t 1 Top_Encoder_Module_map.ncd Top_Encoder_Module.ncd Top_Encoder_Module.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Top_Encoder_Module.twx Top_Encoder_Module.ncd -o Top_Encoder_Module.twr Top_Encoder_Module.pcf -ucf Top_Encoder_Module.ucf 
+bitgen -intstyle ise -f Top_Encoder_Module.ut Top_Encoder_Module.ncd 
+xst -intstyle ise -ifn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.xst" -ofn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.syr" 
+xst -intstyle ise -ifn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.xst" -ofn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top_Encoder_Module.ucf -p xc3s500e-fg320-5 Top_Encoder_Module.ngc Top_Encoder_Module.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Top_Encoder_Module_map.ncd Top_Encoder_Module.ngd Top_Encoder_Module.pcf 
+par -w -intstyle ise -ol high -t 1 Top_Encoder_Module_map.ncd Top_Encoder_Module.ncd Top_Encoder_Module.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Top_Encoder_Module.twx Top_Encoder_Module.ncd -o Top_Encoder_Module.twr Top_Encoder_Module.pcf -ucf Top_Encoder_Module.ucf 
+bitgen -intstyle ise -f Top_Encoder_Module.ut Top_Encoder_Module.ncd 
+xst -intstyle ise -ifn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.xst" -ofn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top_Encoder_Module.ucf -p xc3s500e-fg320-5 Top_Encoder_Module.ngc Top_Encoder_Module.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Top_Encoder_Module_map.ncd Top_Encoder_Module.ngd Top_Encoder_Module.pcf 
+par -w -intstyle ise -ol high -t 1 Top_Encoder_Module_map.ncd Top_Encoder_Module.ncd Top_Encoder_Module.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Top_Encoder_Module.twx Top_Encoder_Module.ncd -o Top_Encoder_Module.twr Top_Encoder_Module.pcf -ucf Top_Encoder_Module.ucf 
+bitgen -intstyle ise -f Top_Encoder_Module.ut Top_Encoder_Module.ncd 
+xst -intstyle ise -ifn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.xst" -ofn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top_Encoder_Module.ucf -p xc3s500e-fg320-5 Top_Encoder_Module.ngc Top_Encoder_Module.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Top_Encoder_Module_map.ncd Top_Encoder_Module.ngd Top_Encoder_Module.pcf 
+par -w -intstyle ise -ol high -t 1 Top_Encoder_Module_map.ncd Top_Encoder_Module.ncd Top_Encoder_Module.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Top_Encoder_Module.twx Top_Encoder_Module.ncd -o Top_Encoder_Module.twr Top_Encoder_Module.pcf -ucf Top_Encoder_Module.ucf 
+bitgen -intstyle ise -f Top_Encoder_Module.ut Top_Encoder_Module.ncd 
+xst -intstyle ise -ifn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.xst" -ofn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top_Encoder_Module.ucf -p xc3s500e-fg320-5 Top_Encoder_Module.ngc Top_Encoder_Module.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Top_Encoder_Module_map.ncd Top_Encoder_Module.ngd Top_Encoder_Module.pcf 
+par -w -intstyle ise -ol high -t 1 Top_Encoder_Module_map.ncd Top_Encoder_Module.ncd Top_Encoder_Module.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Top_Encoder_Module.twx Top_Encoder_Module.ncd -o Top_Encoder_Module.twr Top_Encoder_Module.pcf -ucf Top_Encoder_Module.ucf 
+bitgen -intstyle ise -f Top_Encoder_Module.ut Top_Encoder_Module.ncd 
+xst -intstyle ise -ifn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.xst" -ofn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top_Encoder_Module.ucf -p xc3s500e-fg320-5 Top_Encoder_Module.ngc Top_Encoder_Module.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Top_Encoder_Module_map.ncd Top_Encoder_Module.ngd Top_Encoder_Module.pcf 
+par -w -intstyle ise -ol high -t 1 Top_Encoder_Module_map.ncd Top_Encoder_Module.ncd Top_Encoder_Module.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Top_Encoder_Module.twx Top_Encoder_Module.ncd -o Top_Encoder_Module.twr Top_Encoder_Module.pcf -ucf Top_Encoder_Module.ucf 
+bitgen -intstyle ise -f Top_Encoder_Module.ut Top_Encoder_Module.ncd 
+xst -intstyle ise -ifn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.xst" -ofn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.syr" 
+xst -intstyle ise -ifn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.xst" -ofn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.syr" 
+xst -intstyle ise -ifn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.xst" -ofn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top_Encoder_Module.ucf -p xc3s500e-fg320-5 Top_Encoder_Module.ngc Top_Encoder_Module.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Top_Encoder_Module_map.ncd Top_Encoder_Module.ngd Top_Encoder_Module.pcf 
+par -w -intstyle ise -ol high -t 1 Top_Encoder_Module_map.ncd Top_Encoder_Module.ncd Top_Encoder_Module.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Top_Encoder_Module.twx Top_Encoder_Module.ncd -o Top_Encoder_Module.twr Top_Encoder_Module.pcf -ucf Top_Encoder_Module.ucf 
+bitgen -intstyle ise -f Top_Encoder_Module.ut Top_Encoder_Module.ncd 
+xst -intstyle ise -ifn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.xst" -ofn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top_Encoder_Module.ucf -p xc3s500e-fg320-5 Top_Encoder_Module.ngc Top_Encoder_Module.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Top_Encoder_Module_map.ncd Top_Encoder_Module.ngd Top_Encoder_Module.pcf 
+par -w -intstyle ise -ol high -t 1 Top_Encoder_Module_map.ncd Top_Encoder_Module.ncd Top_Encoder_Module.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Top_Encoder_Module.twx Top_Encoder_Module.ncd -o Top_Encoder_Module.twr Top_Encoder_Module.pcf -ucf Top_Encoder_Module.ucf 
+bitgen -intstyle ise -f Top_Encoder_Module.ut Top_Encoder_Module.ncd 
+xst -intstyle ise -ifn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.xst" -ofn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top_Encoder_Module.ucf -p xc3s500e-fg320-5 Top_Encoder_Module.ngc Top_Encoder_Module.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Top_Encoder_Module_map.ncd Top_Encoder_Module.ngd Top_Encoder_Module.pcf 
+par -w -intstyle ise -ol high -t 1 Top_Encoder_Module_map.ncd Top_Encoder_Module.ncd Top_Encoder_Module.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Top_Encoder_Module.twx Top_Encoder_Module.ncd -o Top_Encoder_Module.twr Top_Encoder_Module.pcf -ucf Top_Encoder_Module.ucf 
+bitgen -intstyle ise -f Top_Encoder_Module.ut Top_Encoder_Module.ncd 
+xst -intstyle ise -ifn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.xst" -ofn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top_Encoder_Module.ucf -p xc3s500e-fg320-5 Top_Encoder_Module.ngc Top_Encoder_Module.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Top_Encoder_Module_map.ncd Top_Encoder_Module.ngd Top_Encoder_Module.pcf 
+par -w -intstyle ise -ol high -t 1 Top_Encoder_Module_map.ncd Top_Encoder_Module.ncd Top_Encoder_Module.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Top_Encoder_Module.twx Top_Encoder_Module.ncd -o Top_Encoder_Module.twr Top_Encoder_Module.pcf -ucf Top_Encoder_Module.ucf 
+bitgen -intstyle ise -f Top_Encoder_Module.ut Top_Encoder_Module.ncd 
+xst -intstyle ise -ifn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.xst" -ofn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top_Encoder_Module.ucf -p xc3s500e-fg320-5 Top_Encoder_Module.ngc Top_Encoder_Module.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Top_Encoder_Module_map.ncd Top_Encoder_Module.ngd Top_Encoder_Module.pcf 
+par -w -intstyle ise -ol high -t 1 Top_Encoder_Module_map.ncd Top_Encoder_Module.ncd Top_Encoder_Module.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Top_Encoder_Module.twx Top_Encoder_Module.ncd -o Top_Encoder_Module.twr Top_Encoder_Module.pcf -ucf Top_Encoder_Module.ucf 
+bitgen -intstyle ise -f Top_Encoder_Module.ut Top_Encoder_Module.ncd 
+vhdtdtfi -lib work binary_to_bcd_digit.vhd -lib work Segment_Decoder_Module.vhd -lib work Encoder_Rotativo_Teste.vhd -lib work Clock_Divider.vhd -lib work BCD_converter.vhd -lib work Segment_Driver.vhd -lib work Encoder_Counter.vhd -lib work Top_Encoder_Module.vhd -prj Leitura_Encoder_e_Display_7_Segmentos -o Top_Encoder_Module.spl -module Top_Encoder_Module -template C:/Xilinx/14.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Top_Encoder_Module.spl C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.sym 
+xst -intstyle ise -ifn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.xst" -ofn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.syr" 
+xst -intstyle ise -ifn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.xst" -ofn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.syr" 
+xst -intstyle ise -ifn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.xst" -ofn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.syr" 
+xst -intstyle ise -ifn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.xst" -ofn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.syr" 
+xst -intstyle ise -ifn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.xst" -ofn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.syr" 
+xst -intstyle ise -ifn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.xst" -ofn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top_Encoder_Module.ucf -p xc3s500e-fg320-5 Top_Encoder_Module.ngc Top_Encoder_Module.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Top_Encoder_Module_map.ncd Top_Encoder_Module.ngd Top_Encoder_Module.pcf 
+par -w -intstyle ise -ol high -t 1 Top_Encoder_Module_map.ncd Top_Encoder_Module.ncd Top_Encoder_Module.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Top_Encoder_Module.twx Top_Encoder_Module.ncd -o Top_Encoder_Module.twr Top_Encoder_Module.pcf -ucf Top_Encoder_Module.ucf 
+bitgen -intstyle ise -f Top_Encoder_Module.ut Top_Encoder_Module.ncd 
+vhdtdtfi -lib work binary_to_bcd_digit.vhd -lib work Segment_Decoder_Module.vhd -lib work Encoder_Rotativo_Teste.vhd -lib work Clock_Divider.vhd -lib work BCD_converter.vhd -lib work Segment_Driver.vhd -lib work Encoder_Counter.vhd -lib work Top_Encoder_Module.vhd -prj Leitura_Encoder_e_Display_7_Segmentos -o Top_Encoder_Module.spl -module Top_Encoder_Module -template C:/Xilinx/14.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Top_Encoder_Module.spl C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.sym 
+xst -intstyle ise -ifn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.xst" -ofn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top_Encoder_Module.ucf -p xc3s500e-fg320-5 Top_Encoder_Module.ngc Top_Encoder_Module.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Top_Encoder_Module_map.ncd Top_Encoder_Module.ngd Top_Encoder_Module.pcf 
+par -w -intstyle ise -ol high -t 1 Top_Encoder_Module_map.ncd Top_Encoder_Module.ncd Top_Encoder_Module.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Top_Encoder_Module.twx Top_Encoder_Module.ncd -o Top_Encoder_Module.twr Top_Encoder_Module.pcf -ucf Top_Encoder_Module.ucf 
+bitgen -intstyle ise -f Top_Encoder_Module.ut Top_Encoder_Module.ncd 
+xst -intstyle ise -ifn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.xst" -ofn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top_Encoder_Module.ucf -p xc3s500e-fg320-5 Top_Encoder_Module.ngc Top_Encoder_Module.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Top_Encoder_Module_map.ncd Top_Encoder_Module.ngd Top_Encoder_Module.pcf 
+par -w -intstyle ise -ol high -t 1 Top_Encoder_Module_map.ncd Top_Encoder_Module.ncd Top_Encoder_Module.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Top_Encoder_Module.twx Top_Encoder_Module.ncd -o Top_Encoder_Module.twr Top_Encoder_Module.pcf -ucf Top_Encoder_Module.ucf 
+bitgen -intstyle ise -f Top_Encoder_Module.ut Top_Encoder_Module.ncd 
+xst -intstyle ise -ifn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.xst" -ofn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top_Encoder_Module.ucf -p xc3s500e-fg320-5 Top_Encoder_Module.ngc Top_Encoder_Module.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Top_Encoder_Module_map.ncd Top_Encoder_Module.ngd Top_Encoder_Module.pcf 
+par -w -intstyle ise -ol high -t 1 Top_Encoder_Module_map.ncd Top_Encoder_Module.ncd Top_Encoder_Module.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Top_Encoder_Module.twx Top_Encoder_Module.ncd -o Top_Encoder_Module.twr Top_Encoder_Module.pcf -ucf Top_Encoder_Module.ucf 
+bitgen -intstyle ise -f Top_Encoder_Module.ut Top_Encoder_Module.ncd 
+vhdtdtfi -lib work binary_to_bcd_digit.vhd -lib work Segment_Decoder_Module.vhd -lib work Encoder_Rotativo_Teste.vhd -lib work Clock_Divider.vhd -lib work BCD_converter.vhd -lib work Segment_Driver.vhd -lib work Encoder_Counter.vhd -lib work Top_Encoder_Module.vhd -prj Leitura_Encoder_e_Display_7_Segmentos -o Top_Encoder_Module.spl -module Top_Encoder_Module -template C:/Xilinx/14.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Top_Encoder_Module.spl C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.sym 
+xst -intstyle ise -ifn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.xst" -ofn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.syr" 
+xst -intstyle ise -ifn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.xst" -ofn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top_Encoder_Module.ucf -p xc3s500e-fg320-5 Top_Encoder_Module.ngc Top_Encoder_Module.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Top_Encoder_Module_map.ncd Top_Encoder_Module.ngd Top_Encoder_Module.pcf 
+par -w -intstyle ise -ol high -t 1 Top_Encoder_Module_map.ncd Top_Encoder_Module.ncd Top_Encoder_Module.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Top_Encoder_Module.twx Top_Encoder_Module.ncd -o Top_Encoder_Module.twr Top_Encoder_Module.pcf -ucf Top_Encoder_Module.ucf 
+bitgen -intstyle ise -f Top_Encoder_Module.ut Top_Encoder_Module.ncd 
+xst -intstyle ise -ifn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.xst" -ofn "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top_Encoder_Module.ucf -p xc3s500e-fg320-5 Top_Encoder_Module.ngc Top_Encoder_Module.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Top_Encoder_Module_map.ncd Top_Encoder_Module.ngd Top_Encoder_Module.pcf 
+par -w -intstyle ise -ol high -t 1 Top_Encoder_Module_map.ncd Top_Encoder_Module.ncd Top_Encoder_Module.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Top_Encoder_Module.twx Top_Encoder_Module.ncd -o Top_Encoder_Module.twr Top_Encoder_Module.pcf -ucf Top_Encoder_Module.ucf 
+bitgen -intstyle ise -f Top_Encoder_Module.ut Top_Encoder_Module.ncd 

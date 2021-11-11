@@ -1,0 +1,8 @@
+vhdl work "binary_to_bcd_digit.vhd"
+vhdl work "Segment_Decoder_Module.vhd"
+vhdl work "Encoder_Rotativo_Teste.vhd"
+vhdl work "Clock_Divider.vhd"
+vhdl work "BCD_converter.vhd"
+vhdl work "Segment_Driver.vhd"
+vhdl work "Encoder_Counter.vhd"
+vhdl work "Top_Encoder_Module.vhd"

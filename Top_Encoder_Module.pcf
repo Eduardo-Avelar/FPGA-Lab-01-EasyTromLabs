@@ -1,0 +1,25 @@
+//! **************************************************************************
+// Written by: Map P.15xf on Sat Oct 27 15:30:06 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "top_clk" LOCATE = SITE "B8" LEVEL 1;
+COMP "top_enc_a" LOCATE = SITE "L15" LEVEL 1;
+COMP "top_enc_b" LOCATE = SITE "K13" LEVEL 1;
+COMP "top_reset" LOCATE = SITE "H18" LEVEL 1;
+COMP "top_selDispA" LOCATE = SITE "F17" LEVEL 1;
+COMP "top_selDispB" LOCATE = SITE "H17" LEVEL 1;
+COMP "top_selDispC" LOCATE = SITE "C18" LEVEL 1;
+COMP "top_selDispD" LOCATE = SITE "F15" LEVEL 1;
+COMP "top_enable" LOCATE = SITE "G18" LEVEL 1;
+COMP "top_segA" LOCATE = SITE "L18" LEVEL 1;
+COMP "top_segB" LOCATE = SITE "F18" LEVEL 1;
+COMP "top_segC" LOCATE = SITE "D17" LEVEL 1;
+COMP "top_segD" LOCATE = SITE "D16" LEVEL 1;
+COMP "top_segE" LOCATE = SITE "G14" LEVEL 1;
+COMP "top_segF" LOCATE = SITE "J17" LEVEL 1;
+COMP "top_segG" LOCATE = SITE "H14" LEVEL 1;
+COMP "top_busy" LOCATE = SITE "J14" LEVEL 1;
+NET "top_clk_BUFGP/IBUFG" BEL "top_clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

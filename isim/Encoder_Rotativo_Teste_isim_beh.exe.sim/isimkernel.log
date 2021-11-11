@@ -1,0 +1,28 @@
+Command line:
+   Encoder_Rotativo_Teste_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  53830
+
+Thu Oct 25 23:19:33 2018
+
+
+ Elaboration Time: 0.140625 sec
+
+ Current Memory Usage: 4694.84 Meg
+
+ Total Signals          : 16
+ Total Nets             : 41
+ Total Signal Drivers   : 11
+ Total Blocks           : 5
+ Total Primitive Blocks : 5
+ Total Processes        : 3
+ Total Traceable Variables  : 15
+ Total Scalar Nets and Variables : 542
+
+ Total Simulation Time: 0.171875 sec
+
+ Current Memory Usage: 4694.84 Meg
+
+Thu Oct 25 23:19:45 2018
+

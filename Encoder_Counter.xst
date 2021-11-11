@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/xst"
+elaborate
+-ifn Encoder_Counter.prj
+-ifmt mixed

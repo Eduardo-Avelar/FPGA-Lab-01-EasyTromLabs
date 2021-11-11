@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\eduar\OneDrive\Documents\Tutoriais_Blog\FPGA\Leitura_Encoder_e_Display_7_Segmentos\Top_Encoder_Module.ncd
+OUTFILE=C:\Users\eduar\OneDrive\Documents\Tutoriais_Blog\FPGA\Leitura_Encoder_e_Display_7_Segmentos\Top_Encoder_Module.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5fg320
+WORKINGDIR=C:\Users\eduar\OneDrive\Documents\Tutoriais_Blog\FPGA\Leitura_Encoder_e_Display_7_Segmentos
+LICENSE=WebPack
+USER_INFO=__0_0_0

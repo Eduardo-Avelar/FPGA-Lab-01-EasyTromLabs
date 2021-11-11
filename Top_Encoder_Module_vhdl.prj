@@ -1,0 +1,8 @@
+vhdl work "C:\Users\eduar\OneDrive\Documents\Tutoriais_Blog\FPGA\Leitura_Encoder_e_Display_7_Segmentos\binary_to_bcd_digit.vhd"
+vhdl work "C:\Users\eduar\OneDrive\Documents\Tutoriais_Blog\FPGA\Leitura_Encoder_e_Display_7_Segmentos\Segment_Decoder_Module.vhd"
+vhdl work "C:\Users\eduar\OneDrive\Documents\Tutoriais_Blog\FPGA\Leitura_Encoder_e_Display_7_Segmentos\Encoder_Rotativo_Teste.vhd"
+vhdl work "C:\Users\eduar\OneDrive\Documents\Tutoriais_Blog\FPGA\Leitura_Encoder_e_Display_7_Segmentos\Clock_Divider.vhd"
+vhdl work "C:\Users\eduar\OneDrive\Documents\Tutoriais_Blog\FPGA\Leitura_Encoder_e_Display_7_Segmentos\BCD_converter.vhd"
+vhdl work "C:\Users\eduar\OneDrive\Documents\Tutoriais_Blog\FPGA\Leitura_Encoder_e_Display_7_Segmentos\Segment_Driver.vhd"
+vhdl work "C:\Users\eduar\OneDrive\Documents\Tutoriais_Blog\FPGA\Leitura_Encoder_e_Display_7_Segmentos\Encoder_Counter.vhd"
+vhdl work "C:\Users\eduar\OneDrive\Documents\Tutoriais_Blog\FPGA\Leitura_Encoder_e_Display_7_Segmentos\Top_Encoder_Module.vhd"

@@ -1,0 +1,2 @@
+vhdl work "BCD_converter.vhd"
+vhdl work "Test_Bench_BCD_converter.vhd"

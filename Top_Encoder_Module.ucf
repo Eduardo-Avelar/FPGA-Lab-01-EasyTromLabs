@@ -1,0 +1,27 @@
+####################################################
+# Company: 		EasyTrom Labs								#
+# Engineer: 	Eduardo Avelar								#
+# Create Date: 14:38:28 04/15/2017 						#
+# Design Name: Leitura de Encoder e Display			#
+# Module Name: Mot_Encoder_Module.ucf		 			#
+# Board: 		Nexys 2 - Digilent						#
+####################################################
+# PlanAhead Generated physical constraints 
+
+NET "top_clk" 			LOC = B8;
+NET "top_enc_a" 		LOC = L15;
+NET "top_enc_b" 		LOC = K13;
+NET "top_reset"		LOC = H18;
+NET "top_enable"		LOC = G18;
+NET "top_busy"			LOC = J14;
+NET "top_segA" 		LOC = L18;
+NET "top_segB" 		LOC = F18;
+NET "top_segC" 		LOC = D17;
+NET "top_segD" 		LOC = D16;
+NET "top_segE" 		LOC = G14;
+NET "top_segF" 		LOC = J17;
+NET "top_segG" 		LOC = H14;
+NET "top_selDispA" 	LOC = F17;
+NET "top_selDispB" 	LOC = H17;
+NET "top_selDispC" 	LOC = C18;
+NET "top_selDispD" 	LOC = F15;

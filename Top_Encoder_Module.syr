@@ -1,0 +1,624 @@
+Release 14.1 - xst P.15xf (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 1.31 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 1.31 secs
+ 
+--> Reading design: Top_Encoder_Module.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Top_Encoder_Module.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Top_Encoder_Module"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-fg320
+
+---- Source Options
+Top Module Name                    : Top_Encoder_Module
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/binary_to_bcd_digit.vhd" in Library work.
+Architecture logic of Entity binary_to_bcd_digit is up to date.
+Compiling vhdl file "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/BCD_converter.vhd" in Library work.
+Architecture logic of Entity bcd_converter is up to date.
+Compiling vhdl file "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Encoder_Rotativo_Teste.vhd" in Library work.
+Architecture behavioral of Entity encoder_rotativo_teste is up to date.
+Compiling vhdl file "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Segment_Decoder_Module.vhd" in Library work.
+Architecture behavioral of Entity segment_decoder_module is up to date.
+Compiling vhdl file "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Clock_Divider.vhd" in Library work.
+Architecture behavioral of Entity clock_divider is up to date.
+Compiling vhdl file "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Segment_Driver.vhd" in Library work.
+Architecture behavioral of Entity segment_driver is up to date.
+Compiling vhdl file "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Encoder_Counter.vhd" in Library work.
+Architecture behavioral of Entity encoder_counter is up to date.
+Compiling vhdl file "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.vhd" in Library work.
+Architecture behavioral of Entity top_encoder_module is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Top_Encoder_Module> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Segment_Driver> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Encoder_Counter> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Segment_Decoder_Module> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Clock_Divider> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <BCD_converter> in library <work> (architecture <logic>) with generics.
+	bits = 13
+	digits = 4
+
+Analyzing hierarchy for entity <Encoder_Rotativo_Teste> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <binary_to_bcd_digit> in library <work> (architecture <logic>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <Top_Encoder_Module> in library <work> (Architecture <behavioral>).
+Entity <Top_Encoder_Module> analyzed. Unit <Top_Encoder_Module> generated.
+
+Analyzing Entity <Segment_Driver> in library <work> (Architecture <behavioral>).
+Entity <Segment_Driver> analyzed. Unit <Segment_Driver> generated.
+
+Analyzing Entity <Segment_Decoder_Module> in library <work> (Architecture <behavioral>).
+INFO:Xst:1561 - "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Segment_Decoder_Module.vhd" line 48: Mux is complete : default of case is discarded
+Entity <Segment_Decoder_Module> analyzed. Unit <Segment_Decoder_Module> generated.
+
+Analyzing Entity <Clock_Divider> in library <work> (Architecture <behavioral>).
+Entity <Clock_Divider> analyzed. Unit <Clock_Divider> generated.
+
+Analyzing Entity <Encoder_Counter> in library <work> (Architecture <behavioral>).
+Entity <Encoder_Counter> analyzed. Unit <Encoder_Counter> generated.
+
+Analyzing generic Entity <BCD_converter> in library <work> (Architecture <logic>).
+	bits = 13
+	digits = 4
+INFO:Xst:1739 - HDL ADVISOR - "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/BCD_converter.vhd" line 18: declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output.
+INFO:Xst:1739 - HDL ADVISOR - "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/BCD_converter.vhd" line 19: declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output.
+INFO:Xst:1739 - HDL ADVISOR - "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/BCD_converter.vhd" line 18: declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output.
+INFO:Xst:1739 - HDL ADVISOR - "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/BCD_converter.vhd" line 19: declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output.
+INFO:Xst:1739 - HDL ADVISOR - "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/BCD_converter.vhd" line 18: declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output.
+INFO:Xst:1739 - HDL ADVISOR - "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/BCD_converter.vhd" line 19: declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output.
+INFO:Xst:1739 - HDL ADVISOR - "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/BCD_converter.vhd" line 18: declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output.
+INFO:Xst:1739 - HDL ADVISOR - "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/BCD_converter.vhd" line 19: declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output.
+Entity <BCD_converter> analyzed. Unit <BCD_converter> generated.
+
+Analyzing Entity <binary_to_bcd_digit> in library <work> (Architecture <logic>).
+Entity <binary_to_bcd_digit> analyzed. Unit <binary_to_bcd_digit> generated.
+
+Analyzing Entity <Encoder_Rotativo_Teste> in library <work> (Architecture <behavioral>).
+INFO:Xst:1561 - "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Encoder_Rotativo_Teste.vhd" line 60: Mux is complete : default of case is discarded
+WARNING:Xst:819 - "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Encoder_Rotativo_Teste.vhd" line 98: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <rotate_counter>
+Entity <Encoder_Rotativo_Teste> analyzed. Unit <Encoder_Rotativo_Teste> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Segment_Decoder_Module>.
+    Related source file is "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Segment_Decoder_Module.vhd".
+    Found 16x7-bit ROM for signal <Decode_Data$mux0000> created at line 32.
+    Summary:
+	inferred   1 ROM(s).
+Unit <Segment_Decoder_Module> synthesized.
+
+
+Synthesizing Unit <Clock_Divider>.
+    Related source file is "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Clock_Divider.vhd".
+    Found 16-bit up counter for signal <count>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <Clock_Divider> synthesized.
+
+
+Synthesizing Unit <Encoder_Rotativo_Teste>.
+    Related source file is "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Encoder_Rotativo_Teste.vhd".
+    Found 1-bit register for signal <delay_rotary_q1>.
+    Found 1-bit register for signal <delay_rotary_q2>.
+    Found 1-bit register for signal <rotary_a_in>.
+    Found 1-bit register for signal <rotary_b_in>.
+    Found 1-bit register for signal <rotary_event>.
+    Found 1-bit xor2 for signal <rotary_event$xor0000> created at line 86.
+    Found 1-bit xor2 for signal <rotary_event$xor0001> created at line 86.
+    Found 2-bit register for signal <rotary_in>.
+    Found 1-bit register for signal <rotary_q1>.
+    Found 1-bit 4-to-1 multiplexer for signal <rotary_q1$mux0000> created at line 52.
+    Found 1-bit register for signal <rotary_q2>.
+    Found 1-bit 4-to-1 multiplexer for signal <rotary_q2$mux0000> created at line 52.
+    Found 1-bit register for signal <rotary_right>.
+    Found 13-bit updown counter for signal <rotate_counter>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  10 D-type flip-flop(s).
+	inferred   2 Multiplexer(s).
+Unit <Encoder_Rotativo_Teste> synthesized.
+
+
+Synthesizing Unit <binary_to_bcd_digit>.
+    Related source file is "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/binary_to_bcd_digit.vhd".
+    Found 4-bit register for signal <bcd>.
+    Found 1-bit xor2 for signal <bcd_2$xor0000> created at line 43.
+    Found 1-bit register for signal <prev_ena>.
+    Summary:
+	inferred   5 D-type flip-flop(s).
+Unit <binary_to_bcd_digit> synthesized.
+
+
+Synthesizing Unit <Segment_Driver>.
+    Related source file is "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Segment_Driver.vhd".
+WARNING:Xst:646 - Signal <clock_word<14:0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 4x1-bit ROM for signal <Select_Display_D$mux0001> created at line 99.
+    Found 1-bit register for signal <Select_Display_A>.
+    Found 1-bit register for signal <Select_Display_B>.
+    Found 1-bit register for signal <Select_Display_C>.
+    Found 1-bit register for signal <Select_Display_D>.
+    Found 2-bit up counter for signal <display_selection>.
+    Found 4-bit register for signal <temperary_data>.
+    Found 4-bit 4-to-1 multiplexer for signal <temperary_data$mux0001> created at line 99.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   1 Counter(s).
+	inferred   8 D-type flip-flop(s).
+	inferred   4 Multiplexer(s).
+Unit <Segment_Driver> synthesized.
+
+
+Synthesizing Unit <BCD_converter>.
+    Related source file is "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/BCD_converter.vhd".
+WARNING:Xst:646 - Signal <converter_inputs<4>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 1-bit register for signal <busy>.
+    Found 16-bit register for signal <bcd>.
+    Found 13-bit register for signal <binary_reg>.
+    Found 4-bit up counter for signal <bit_count>.
+    Found 4-bit comparator greatequal for signal <bit_count$cmp_ge0000> created at line 76.
+    Found 4-bit comparator less for signal <busy$cmp_lt0000> created at line 76.
+    Found 1-bit register for signal <converter_ena>.
+    Found 1-bit register for signal <converter_inputs<0>>.
+    Found 1-bit register for signal <state<0>>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  33 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <BCD_converter> synthesized.
+
+
+Synthesizing Unit <Encoder_Counter>.
+    Related source file is "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Encoder_Counter.vhd".
+Unit <Encoder_Counter> synthesized.
+
+
+Synthesizing Unit <Top_Encoder_Module>.
+    Related source file is "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Top_Encoder_Module.vhd".
+Unit <Top_Encoder_Module> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 2
+ 16x7-bit ROM                                          : 1
+ 4x1-bit ROM                                           : 1
+# Counters                                             : 4
+ 13-bit updown counter                                 : 1
+ 16-bit up counter                                     : 1
+ 2-bit up counter                                      : 1
+ 4-bit up counter                                      : 1
+# Registers                                            : 40
+ 1-bit register                                        : 36
+ 13-bit register                                       : 1
+ 16-bit register                                       : 1
+ 2-bit register                                        : 1
+ 4-bit register                                        : 1
+# Comparators                                          : 2
+ 4-bit comparator greatequal                           : 1
+ 4-bit comparator less                                 : 1
+# Multiplexers                                         : 3
+ 1-bit 4-to-1 multiplexer                              : 2
+ 4-bit 4-to-1 multiplexer                              : 1
+# Xors                                                 : 6
+ 1-bit xor2                                            : 6
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <Segment_Driver>.
+INFO:Xst:3034 - In order to maximize performance and save block RAM resources, the small ROM <Mrom_Select_Display_D_mux0001> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+Unit <Segment_Driver> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 2
+ 16x7-bit ROM                                          : 1
+ 4x1-bit ROM                                           : 1
+# Counters                                             : 4
+ 13-bit updown counter                                 : 1
+ 16-bit up counter                                     : 1
+ 2-bit up counter                                      : 1
+ 4-bit up counter                                      : 1
+# Registers                                            : 71
+ Flip-Flops                                            : 71
+# Comparators                                          : 2
+ 4-bit comparator greatequal                           : 1
+ 4-bit comparator less                                 : 1
+# Multiplexers                                         : 3
+ 1-bit 4-to-1 multiplexer                              : 2
+ 4-bit 4-to-1 multiplexer                              : 1
+# Xors                                                 : 6
+ 1-bit xor2                                            : 6
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Top_Encoder_Module> ...
+
+Optimizing unit <Encoder_Rotativo_Teste> ...
+
+Optimizing unit <binary_to_bcd_digit> ...
+
+Optimizing unit <Segment_Driver> ...
+
+Optimizing unit <BCD_converter> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+INFO:Xst:2261 - The FF/Latch <uut4/BCDConv/bcd_digits[1].digit_0/prev_ena> in Unit <Top_Encoder_Module> is equivalent to the following 3 FFs/Latches, which will be removed : <uut4/BCDConv/bcd_digits[2].digit_0/prev_ena> <uut4/BCDConv/bcd_digits[3].digit_0/prev_ena> <uut4/BCDConv/bcd_digits[4].digit_0/prev_ena> 
+Found area constraint ratio of 100 (+ 5) on block Top_Encoder_Module, actual ratio is 1.
+FlipFlop uut4/BCDConv/state_0 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+Processing Unit <Top_Encoder_Module> :
+	Found 2-bit shift register for signal <uut4/Encoder_value/rotary_in_1>.
+	Found 2-bit shift register for signal <uut4/Encoder_value/rotary_in_0>.
+Unit <Top_Encoder_Module> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 100
+ Flip-Flops                                            : 100
+# Shift Registers                                      : 2
+ 2-bit shift register                                  : 2
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Top_Encoder_Module.ngr
+Top Level Output File Name         : Top_Encoder_Module
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 17
+
+Cell Usage :
+# BELS                             : 173
+#      GND                         : 1
+#      INV                         : 3
+#      LUT1                        : 15
+#      LUT2                        : 28
+#      LUT2_L                      : 4
+#      LUT3                        : 24
+#      LUT3_L                      : 8
+#      LUT4                        : 29
+#      MUXCY                       : 27
+#      MUXF5                       : 4
+#      VCC                         : 1
+#      XORCY                       : 29
+# FlipFlops/Latches                : 102
+#      FD                          : 30
+#      FDC                         : 3
+#      FDCE                        : 50
+#      FDE                         : 14
+#      FDPE                        : 1
+#      FDR                         : 4
+# Shift Registers                  : 2
+#      SRL16                       : 2
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 16
+#      IBUF                        : 4
+#      OBUF                        : 12
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-5 
+
+ Number of Slices:                       67  out of   4656     1%  
+ Number of Slice Flip Flops:            102  out of   9312     1%  
+ Number of 4 input LUTs:                113  out of   9312     1%  
+    Number used as logic:               111
+    Number used as Shift registers:       2
+ Number of IOs:                          17
+ Number of bonded IOBs:                  17  out of    232     7%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+-------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)         | Load  |
+-----------------------------------+-------------------------------+-------+
+top_clk                            | BUFGP                         | 94    |
+uut2/uut1/count_15                 | NONE(uut2/display_selection_1)| 10    |
+-----------------------------------+-------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+---------------------------------------------------------------------------------------+-------------------------+-------+
+Control Signal                                                                         | Buffer(FF name)         | Load  |
+---------------------------------------------------------------------------------------+-------------------------+-------+
+uut4/BCDConv/bcd_digits[1].digit_0/reset_n_inv(uut4/Encoder_value/reset_n_inv1_INV_0:O)| NONE(uut4/BCDConv/bcd_0)| 54    |
+---------------------------------------------------------------------------------------+-------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 4.139ns (Maximum Frequency: 241.625MHz)
+   Minimum input arrival time before clock: 3.640ns
+   Maximum output required time after clock: 5.406ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'top_clk'
+  Clock period: 4.139ns (frequency: 241.625MHz)
+  Total number of paths / destination ports: 784 / 157
+-------------------------------------------------------------------------
+Delay:               4.139ns (Levels of Logic = 2)
+  Source:            uut4/BCDConv/bit_count_1 (FF)
+  Destination:       uut4/BCDConv/binary_reg_12 (FF)
+  Source Clock:      top_clk rising
+  Destination Clock: top_clk rising
+
+  Data Path: uut4/BCDConv/bit_count_1 to uut4/BCDConv/binary_reg_12
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             5   0.514   0.541  uut4/BCDConv/bit_count_1 (uut4/BCDConv/bit_count_1)
+     LUT4:I3->O            5   0.612   0.541  uut4/BCDConv/busy_not00011 (uut4/BCDConv/busy_not0001)
+     LUT4:I3->O           13   0.612   0.836  uut4/BCDConv/binary_reg_and00001 (uut4/BCDConv/binary_reg_and0000)
+     FDE:CE                    0.483          uut4/BCDConv/binary_reg_0
+    ----------------------------------------
+    Total                      4.139ns (2.221ns logic, 1.918ns route)
+                                       (53.7% logic, 46.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'uut2/uut1/count_15'
+  Clock period: 3.280ns (frequency: 304.878MHz)
+  Total number of paths / destination ports: 23 / 10
+-------------------------------------------------------------------------
+Delay:               3.280ns (Levels of Logic = 1)
+  Source:            uut2/display_selection_0 (FF)
+  Destination:       uut2/Select_Display_C (FF)
+  Source Clock:      uut2/uut1/count_15 rising
+  Destination Clock: uut2/uut1/count_15 rising
+
+  Data Path: uut2/display_selection_0 to uut2/Select_Display_C
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             14   0.514   1.002  uut2/display_selection_0 (uut2/display_selection_0)
+     LUT2:I0->O            1   0.612   0.357  uut2/Select_Display_C_cmp_eq00001 (uut2/Select_Display_C_cmp_eq0000)
+     FDR:R                     0.795          uut2/Select_Display_C
+    ----------------------------------------
+    Total                      3.280ns (1.921ns logic, 1.359ns route)
+                                       (58.6% logic, 41.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'top_clk'
+  Total number of paths / destination ports: 50 / 37
+-------------------------------------------------------------------------
+Offset:              3.640ns (Levels of Logic = 2)
+  Source:            top_reset (PAD)
+  Destination:       uut4/BCDConv/binary_reg_12 (FF)
+  Destination Clock: top_clk rising
+
+  Data Path: top_reset to uut4/BCDConv/binary_reg_12
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   1.106   0.603  top_reset_IBUF (top_reset_IBUF)
+     LUT4:I0->O           13   0.612   0.836  uut4/BCDConv/binary_reg_and00001 (uut4/BCDConv/binary_reg_and0000)
+     FDE:CE                    0.483          uut4/BCDConv/binary_reg_0
+    ----------------------------------------
+    Total                      3.640ns (2.201ns logic, 1.439ns route)
+                                       (60.5% logic, 39.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'uut2/uut1/count_15'
+  Total number of paths / destination ports: 32 / 11
+-------------------------------------------------------------------------
+Offset:              5.406ns (Levels of Logic = 2)
+  Source:            uut2/temperary_data_1 (FF)
+  Destination:       top_segA (PAD)
+  Source Clock:      uut2/uut1/count_15 rising
+
+  Data Path: uut2/temperary_data_1 to top_segA
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               7   0.514   0.754  uut2/temperary_data_1 (uut2/temperary_data_1)
+     LUT4:I0->O            1   0.612   0.357  uut2/uut/segment_C1 (top_segC_OBUF)
+     OBUF:I->O                 3.169          top_segC_OBUF (top_segC)
+    ----------------------------------------
+    Total                      5.406ns (4.295ns logic, 1.111ns route)
+                                       (79.5% logic, 20.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'top_clk'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.040ns (Levels of Logic = 1)
+  Source:            uut4/BCDConv/busy (FF)
+  Destination:       top_busy (PAD)
+  Source Clock:      top_clk rising
+
+  Data Path: uut4/BCDConv/busy to top_busy
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDPE:C->Q             1   0.514   0.357  uut4/BCDConv/busy (uut4/BCDConv/busy)
+     OBUF:I->O                 3.169          top_busy_OBUF (top_busy)
+    ----------------------------------------
+    Total                      4.040ns (3.683ns logic, 0.357ns route)
+                                       (91.2% logic, 8.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 34.00 secs
+Total CPU time to Xst completion: 34.26 secs
+ 
+--> 
+
+Total memory usage is 4514564 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    3 (   0 filtered)
+Number of infos    :   13 (   0 filtered)
+

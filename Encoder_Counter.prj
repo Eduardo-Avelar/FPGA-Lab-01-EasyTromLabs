@@ -1,0 +1,4 @@
+vhdl work "binary_to_bcd_digit.vhd"
+vhdl work "Encoder_Rotativo_Teste.vhd"
+vhdl work "BCD_converter.vhd"
+vhdl work "Encoder_Counter.vhd"

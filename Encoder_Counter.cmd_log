@@ -1,0 +1,2 @@
+vhdtdtfi -lib work binary_to_bcd_digit.vhd -lib work Encoder_Rotativo_Teste.vhd -lib work BCD_converter.vhd -lib work Encoder_Counter.vhd -prj Leitura_Encoder_e_Display_7_Segmentos -o Encoder_Counter.spl -module Encoder_Counter -template C:/Xilinx/14.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Encoder_Counter.spl C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/Encoder_Counter.sym 

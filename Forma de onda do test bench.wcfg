@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/TestbenchEncoderValue_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="testbenchencodervalue" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/testbenchencodervalue/rotary_a" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rotary_a</obj_property>
+      <obj_property name="ObjectShortName">rotary_a</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbenchencodervalue/rotary_b" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rotary_b</obj_property>
+      <obj_property name="ObjectShortName">rotary_b</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbenchencodervalue/reset_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset_n</obj_property>
+      <obj_property name="ObjectShortName">reset_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbenchencodervalue/ena" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ena</obj_property>
+      <obj_property name="ObjectShortName">ena</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbenchencodervalue/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbenchencodervalue/rotate_counter_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rotate_counter_out[12:0]</obj_property>
+      <obj_property name="ObjectShortName">rotate_counter_out[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbenchencodervalue/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+</wave_config>

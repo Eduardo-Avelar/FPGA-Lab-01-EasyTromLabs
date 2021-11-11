@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/TestbenchEncoderValue_isim_beh.exe" -prj "C:/Users/eduar/OneDrive/Documents/Tutoriais_Blog/FPGA/Leitura_Encoder_e_Display_7_Segmentos/TestbenchEncoderValue_beh.prj" "work.TestbenchEncoderValue" 
